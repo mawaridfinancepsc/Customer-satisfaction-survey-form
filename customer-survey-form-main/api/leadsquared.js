@@ -94,7 +94,7 @@ export default async function handler(req, res) {
     }
 
     // --- Send to Google Sheet (plain 9 digits) ---
-    const SHEET_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbzqSc5akQnBMb9ujjAibVWXx1_Z6SWSkM0jGlKh8VmoWbmuuZw-zD5Bpc_OPqL0F1vE3A/exec';
+    const SHEET_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbyZvGE_9UfP0SVsQl_aTFhMYy1KilJQ1lZY78cpEBMYS5YKj_qzgRsfaAU9GbrtRtUHEg/exec';
 
     const sheetPayload = {
       phone: phoneForSheet,
